@@ -1,7 +1,7 @@
 window.onload = function() {
 	var videoBottom = document.getElementById("video-bottom");
 	var place = document.getElementById("place");
-	var vedioDiv = document.getElementById("vedio-div");
+	var vedioDiv = document.getElementById("video-div");
 	window.onscroll = function() {
 		var backTop = document.documentElement.scrollTop || document.body.scrollTop;
 		console.log(videoBottom.offsetHeight);
