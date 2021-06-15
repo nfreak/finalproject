@@ -1,9 +1,7 @@
-// window.onload = function() {
 var button = document.getElementById("right");
 var commentList = document.getElementById("comment-list");
 var comment = document.getElementById("comment-content");
 button.onclick = function() {
-	// alert(comment.value.trim());
 	if (comment.value.trim() != "") {
 		var li = document.createElement("li");
 		var img = document.createElement("img");
@@ -13,11 +11,11 @@ button.onclick = function() {
 		var div3 = document.createElement("div");
 		var span = document.createElement("span");
 		var lv = document.createElement("img");
-		img.src = "image/头像.jpg";
+		img.src = "images/video/头像.jpg";
 		img.className = "user-image";
 		userComment.className = "user-comment";
 		span.innerHTML = "匿名用户";
-		lv.src = "content_image/lv5.png";
+		lv.src = "images/video/lv5.png";
 		div1.appendChild(span);
 		div1.appendChild(lv);
 		div2.innerHTML = comment.value.trim();
